@@ -30,7 +30,7 @@ public class HelloController {
 
         switch (operator) {
             case "+/-" :
-                txtDisplay.setText(String.valueOf(Integer.parseInt(txtDisplay.getText())*(-1)));
+                txtDisplay.setText(String.valueOf(Double.parseDouble(txtDisplay.getText())*(-1)));
                 break;
             default :
                 txtDisplay.setText("");
